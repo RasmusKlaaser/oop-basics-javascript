@@ -29,3 +29,5 @@ class Course {
         return `${this.name}`;
     }
 }
+
+module.exports = {Course} 

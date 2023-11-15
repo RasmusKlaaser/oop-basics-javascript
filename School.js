@@ -48,3 +48,5 @@ class School {
         return this.students;
     }
 }
+
+module.exports = {School} 

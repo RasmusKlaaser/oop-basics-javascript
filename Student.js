@@ -1,5 +1,8 @@
-class Student {
+const { Person } = require("./Person");
+
+class Student extends Person {
     constructor(name) {
+        super(name);
         this.name = name;
         this.__grades = [];
         this.__id = null;
@@ -38,3 +41,5 @@ class Student {
         return `${this.name}`;
     }
 }
+
+module.exports = {Student} 
